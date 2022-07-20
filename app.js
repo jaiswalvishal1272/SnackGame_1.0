@@ -145,7 +145,7 @@ function getScore(){
 function ok(){
     confirm('Your Score:'+score)
     if(true){
-        location.href="http://127.0.0.1:5500/lastPage.html";
+        location.href="./lastPage.html";;
 
     }
 
