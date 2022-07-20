@@ -1,0 +1,116 @@
+body{
+    background-image: url("./exitPage.jpg");
+}
+
+#actonButton{
+    display: block;
+    text-align: center;
+    
+    
+}
+
+/*#scoreofmatch{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-25%, -25%);
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: bold;
+    margin: 1px;
+    padding: 5px;
+    border-color:10 px solid black;
+
+
+} */
+/*#forScore{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-25%, -25%);
+    transform: translate(-50%, -50%);
+    
+    width: 400px;
+    height: 70px;
+
+}*/
+
+#SCORE{
+    
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    -ms-transform: translate(-25%, -25%);
+    transform: translate(-50%, -50%);
+    background-image:url("/wooden.png");
+    width: 350px;
+    height: 70px;
+    white-space: wrap;
+    margin: 15px;
+    font-size: 35px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+
+
+
+}
+h2{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -ms-transform: translate(-25%, -25%);
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 70px;
+    white-space: wrap;
+   
+    font-size: 35px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: bold;
+    
+    
+    
+}
+#startagain{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-25%, -25%);
+    transform: translate(-50%, -50%);
+    background-image:url("/wooden.png");
+    width: 350px;
+    height: 70px;
+    white-space: wrap;
+    margin: 15px;
+    font-size: 35px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+#exit{
+    
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    -ms-transform: translate(-25%, -25%);
+    transform: translate(-50%, -50%);
+    background-image:url("/wooden.png");
+    width: 350px;
+    height: 70px;
+    white-space: wrap;
+    margin: 15px;
+    font-size: 35px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+
+
+}

@@ -1,0 +1,101 @@
+#gamepage{
+    background-image: url('/gameBox.jpg');
+    min-height: 100vh;
+    background-size: 100wh 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#board{
+    width:94vmin;
+    height:94vmin;
+    background-size: 50wh 50vh;
+    background-image:url("/board2.jpg");
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows:repeat(20,1fr);
+    border: 3px solid black;
+    border-radius:auto;
+
+}
+
+#gamestart{
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    -ms-transform: translate(-25%, -25%);
+    transform: translate(-50%, -50%);
+    background-image:url("/wooden.png");
+    width: 50px;
+    height: 20px;
+    white-space: wrap;
+    margin: 15px;
+    font-size: 12px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+}
+#heading{
+    position: absolute;
+    top: 12%;
+    left: 85%;
+    -ms-transform: translate(-25%, -25%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+
+}
+#resultscore{
+    position: absolute;
+    top: 30%;
+    left: 85%;
+    -ms-transform: translate(-25%, -25%);
+    transform: translate(-50%, -50%);
+    background-image:url("/wooden.png");
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: bold;
+    border: 2px solid lavender;
+    border-radius: 12px solid black;
+
+
+}
+#resulthiscore{
+    position: absolute;
+    top: 45%;
+    left: 85%;
+    -ms-transform: translate(-25%, -25%);
+    transform: translate(-50%, -50%);
+    background-image:url("/wooden.png");
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: bold;
+    border: 2px solid lavender;
+    border-radius: 12px solid black;
+
+}
+.head{
+    background-color: palevioletred;
+    border-radius: 5PX;
+
+}
+.food{
+    background-color:green;
+    
+}
+.snake{
+    background-image: url('snakeBody.png');
+    
+}
