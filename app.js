@@ -86,7 +86,8 @@ function gameRun(){
     if(isCollapse(snakeArr)){
         gameoverMusic.play();
         backgroundMusic.pause();     
-        ok(); 
+        //alert("Game Over \n Score: " + score)
+        location.href = "./lastPage.html"
     }
     //display the snake 
     board.innerHTML="";
@@ -120,7 +121,7 @@ function isCollapse(snakeArr){
         }
 
     }
-    if(snakeArr[0].x>=21 || snakeArr[0].x<=-1 || snakeArr[0].y>=21 || snakeArr[0].y<=-1){
+    if(snakeArr[0].x>=20 || snakeArr[0].x<=0 || snakeArr[0].y>=20 || snakeArr[0].y<=0){
         return true;
 
     }
@@ -141,12 +142,4 @@ function getScore(){
 
     
 }
-}
-function ok(){
-    confirm('Your Score:'+score)
-    if(true){
-        location.href="./lastPage.html";;
-
-    }
-
 }

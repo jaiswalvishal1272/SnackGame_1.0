@@ -45,7 +45,7 @@ body{
     left: 50%;
     -ms-transform: translate(-25%, -25%);
     transform: translate(-50%, -50%);
-    background-image:url("/wooden.png");
+    background-image:url("wooden.png");
     width: 350px;
     height: 70px;
     white-space: wrap;
@@ -82,7 +82,7 @@ h2{
     left: 50%;
     -ms-transform: translate(-25%, -25%);
     transform: translate(-50%, -50%);
-    background-image:url("/wooden.png");
+    background-image:url("wooden.png");
     width: 350px;
     height: 70px;
     white-space: wrap;
@@ -101,7 +101,7 @@ h2{
     left: 50%;
     -ms-transform: translate(-25%, -25%);
     transform: translate(-50%, -50%);
-    background-image:url("/wooden.png");
+    background-image:url("wooden.png");
     width: 350px;
     height: 70px;
     white-space: wrap;
