@@ -1,5 +1,5 @@
 function startAgain(){
-    location.href="http://127.0.0.1:5500/gamepage.html";
+    location.href="./gamepage.html";
 }
 function displayScore(){
     let Scoreshow=document.getElementById("SCORE");
