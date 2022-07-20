@@ -10,7 +10,7 @@
     width:94vmin;
     height:94vmin;
     background-size: 50wh 50vh;
-    background-image:url("/board2.jpg");
+    background-image:url("./board2.jpg");
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: repeat(20,1fr);
